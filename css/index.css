@@ -1,0 +1,263 @@
+/* nav--main-start */
+.nav--main .dropdown {
+  float: left;
+  position: absolute;
+  width: 25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.nav--main .dropdown h4 {
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  background-color: #b1191a;
+}
+
+.nav--main .dropdown ul {
+  background-color: #c81623;
+  text-align: left;
+}
+
+.nav--main .dropdown ul li {
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.nav--main .dropdown ul li a {
+  color: #fff;
+}
+
+.nav--main .dropdown ul li a:after {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  content: '\e904';
+  font-family: 'icomoon';
+}
+
+.nav--main .nav--items {
+  height: 4rem;
+  margin-left: 25rem;
+}
+
+.nav--main .nav--items li {
+  float: left;
+  padding: 0 2.4rem;
+  font-size: 1.6rem;
+}
+/* nav--main-end */
+
+/* main-start */
+.main {
+  position: relative;
+  border-top: 0.3rem solid #b1191a;
+  z-index: 1;
+}
+
+.main .focus {
+  float: left;
+  width: 66.9rem;
+  margin-left: 26rem;
+  margin-top: 1rem;
+}
+
+.main .focus img {
+  width: 100%;
+}
+
+.main .news {
+  float: right;
+  width: 26rem;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+.main .news .title {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: 0.7rem;
+}
+
+.main .news .title h4 {
+  display: inline-block;
+}
+.main .news .title span {
+  position: absolute;
+  right: 1rem;
+}
+
+.main .news .title span:after {
+  content: '\e904';
+  font-family: 'icomoon';
+  vertical-align: middle;
+}
+
+.main .news ul {
+  padding: 0.5rem;
+}
+
+.main .news ul li {
+  height: 2.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .recharge {
+  float: right;
+  width: 26rem;
+}
+.main .recharge li {
+  float: left;
+  width: 5.2rem;
+  /* height: 6.1rem; */
+  text-align: center;
+  padding-top: 1.4rem;
+}
+.main .recharge span {
+  display: block;
+  width: 2.4rem;
+  height: 2.8rem;
+  margin: 0 auto;
+  background: -1.7rem -1.5rem no-repeat url(../images/icons.png);
+}
+
+.main .discount {
+  float: right;
+  width: 26rem;
+  padding-top: 1.1rem;
+  /* padding: 1rem 0; */
+}
+
+.main .discount img {
+  width: 100%;
+}
+
+.main .recommend {
+  float: left;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.main .recommend .recommend-hd {
+  float: left;
+  width: 20.8rem;
+  height: 16.3rem;
+  line-height: 16.3rem;
+  text-align: center;
+  background-color: #5c5251;
+}
+
+.main .recommend .recommend-bd {
+  float: left;
+  width: 24.8rem;
+  height: 16.3;
+}
+
+.main .recommend .recommend-bd img {
+  width: 100%;
+}
+
+.home-appliances {
+  float: left;
+}
+
+.home-appliances--hd {
+  float: left;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 0.3rem solid rgb(165, 11, 11);
+}
+
+.home-appliances--hd h3 {
+  float: left;
+  font-size: 1.6rem;
+  color: #de0073;
+}
+
+.home-appliances--hd ul {
+  float: right;
+}
+
+.home-appliances--hd ul li {
+  float: right;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+}
+
+.home-appliances--hd ul li::after {
+  float: right;
+  display: block;
+  content: '';
+  width: 1px;
+  height: 1.4rem;
+  background-color: #333;
+  margin-left: 2rem;
+  margin-top: 0.7em;
+}
+
+.home-appliances--hd ul li:first-child::after {
+  display: none;
+}
+
+.home-appliances--bd {
+  height: 36.1rem;
+  border-bottom: 1px solid red;
+}
+
+.home-appliances--bd .box--1 {
+  float: left;
+  width: 21rem;
+  background-color: #fbfbfb;
+}
+
+.home-appliances--bd .box--1 ul {
+  float: left;
+  padding: 0.5rem 0;
+}
+
+.home-appliances--bd .box--1 > a {
+  display: block;
+  /* margin-top: 20rem; */
+  height: 25.5rem;
+}
+
+.home-appliances--bd .box--1 a img {
+  width: 100%;
+  margin-top: 0.6rem;
+}
+
+.home-appliances--bd .box--1 ul li {
+  float: left;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  margin: 0 1rem;
+}
+
+.home-appliances--bd .box--2 {
+  float: left;
+  width: 32.9rem;
+}
+
+.home-appliances--bd .box--3 {
+  float: left;
+  width: 22.1rem;
+}
+
+.home-appliances--bd .box--3 a {
+  display: block;
+}
+
+.home-appliances--bd .box--4 {
+  float: left;
+}
+
+.home-appliances--bd .box--5 {
+  float: left;
+}
+
+.home-appliances--bd .box--5 a {
+  display: block;
+}
+/* main-end */
